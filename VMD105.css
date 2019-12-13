@@ -1,0 +1,48 @@
+body {
+    width: 1000px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 4px solid #000;
+    background-image: radial-gradient(#FABC81, #ADFA81, #81C1FA);
+}
+
+@font-face {
+    font-family: 'nevis Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('nevis Bold'), url('nevis.woff') format('woff');
+}
+
+a {
+    font-size: 12pt;
+    color: #8621FC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FA9C50;
+    font-size: 18pt;
+}
+
+h1 {
+    font-size: 36pt;
+    font-family: "nevis Bold";
+    color: #000;
+    border-top: 2px dotted #686143;
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: 14pt;
+    font-family: "Roboto Mono Bold";
+    line-height: 16pts;
+}
+
+img {
+    border: medium solid #666;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .3);
+}
